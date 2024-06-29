@@ -1,0 +1,12 @@
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 16px;
+  justify-items: center;
+  padding: 16px;
+}
